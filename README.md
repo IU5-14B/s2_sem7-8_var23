@@ -173,8 +173,8 @@ std::size_t size() const;
 Из корня проекта:
 
 ```bash
-cmake -S . -B build
-cmake --build build
+cmake -S . -B build && cmake --build build && ./build/sem7_8_metrics_demo
+```
+``` bash
 ./build/museum_app
-./build/sem7_8_metrics_demo
 ```
